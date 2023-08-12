@@ -1,0 +1,62 @@
+
+
+*{
+    padding: 0;
+    margin-top: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background: #11304f;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px 100px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a{
+    color: rgb(151, 31, 225);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active, a:hover{
+    border: 1px solid rgb(143, 27, 210);
+    transition: .5s;
+}
+
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
