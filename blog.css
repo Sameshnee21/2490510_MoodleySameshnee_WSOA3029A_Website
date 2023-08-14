@@ -6,6 +6,17 @@
     --light:#F3F3F3;
 }
 
+section#title{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(2, 37, 63);
+    font-size: 40px;
+    margin-top: 5%;
+}
 .wholecard{
     width: 100%;
     min-height: 100vh;
@@ -301,6 +312,8 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+
+
 
 @media (max-width: 1048px){
 label.logo{
