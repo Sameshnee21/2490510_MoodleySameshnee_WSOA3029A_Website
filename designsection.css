@@ -158,6 +158,12 @@ margin-left: 50px;
 font-size: larger;
 }
 
+.Sources{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+   padding-top: 5%;
+   text-align:center;
+}
 
 /*section{
     background: url(Images/nasa-dCgbRAQmTQA-unsplash.jpg) no-repeat;
