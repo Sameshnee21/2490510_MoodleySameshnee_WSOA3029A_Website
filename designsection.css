@@ -5,6 +5,7 @@
     margin-top: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -129,6 +130,22 @@ nav ul.show{
 }
 
 }
+
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    border: 5px #d7d9da;
+    overflow: hidden;
+    align-items: center;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+
 
 /*section{
     background: url(Images/nasa-dCgbRAQmTQA-unsplash.jpg) no-repeat;
