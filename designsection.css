@@ -136,7 +136,8 @@ nav ul.show{
     margin: auto;
     border: 5px #d7d9da;
     overflow: hidden;
-    align-items: center;
+   
+   
 }
 
 .carousel-slide{
@@ -145,6 +146,17 @@ nav ul.show{
     height: 500px;
 }
 
+#prevBtn{
+    margin-left: 45%;
+    margin-top: 1%;
+    font-size: larger;
+    
+}
+
+#nextBtn{
+margin-left: 50px;
+font-size: larger;
+}
 
 
 /*section{
