@@ -9,6 +9,10 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(Images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 150%;
+    background-color: #010a14;
 }
 
 nav{
@@ -60,6 +64,18 @@ nav #icon{
     display: none;
 }
 
+section#title{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(200, 212, 221);
+    font-size: 35px;
+    margin-top: 10%;
+}
+
 @media (max-width: 1048px){
 label.logo{
     font-size: 32px;
@@ -79,6 +95,8 @@ nav a{
 nav #icon{
     display: block;
 }
+
+
 
 nav ul{
     position: fixed;
@@ -114,10 +132,10 @@ nav ul.show{
 
 }
 
-section{
+/*section{
     background: url(Images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
-}
+}*/
 
 
