@@ -64,15 +64,18 @@ nav #icon{
     display: none;
 }
 section#title{
-    height: calc(100vh - 60px);
+    /*height: calc(100vh - 60px);*/
+    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin-top: 10%;
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 5%;
+    background-color: rgba(20, 9, 40, 0.949);
 }
 
 @media (max-width: 1048px){

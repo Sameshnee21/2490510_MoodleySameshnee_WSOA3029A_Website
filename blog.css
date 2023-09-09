@@ -7,15 +7,18 @@
 }
 
 section#title{
-    height: calc(100vh - 60px);
+    /*height: calc(100vh - 60px);*/
+    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: rgb(2, 37, 63);
-    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 25px;
     margin-top: 5%;
+    background-color: rgba(42, 19, 84, 0.949);
 }
 .wholecard{
     width: 100%;
@@ -25,9 +28,11 @@ font-family: sans-serif;
 }
 
 .card{
-    margin: 100px auto 0;
+    /*margin: 80px auto 0;*/
+    margin-left: 20%;
     width: 400px;
     height: 500px;
+    margin-top: 10%;
 }
 
 .card__inner{
@@ -141,7 +146,9 @@ font-family: sans-serif;
 }
 
 .card2{
-    margin: 100px auto 0;
+   /* margin: 80px auto 0;*/
+   margin-left: 60%;
+   margin-top: -50%;
     width: 400px;
     height: 500px;
 }
