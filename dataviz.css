@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(Images/nasa-_SFJhRPzJHs-unsplash.jpg) no-repeat;
+    background: url(Images/nasa-7Cz6bWjdlDs-unsplash.jpg) no-repeat;
     background-size: cover;
     height: 100%;
 }
@@ -75,7 +75,7 @@ section#title{
     font-size: 20px;
     margin: 15px;
     margin-top: 5%;
-    background-color: rgba(20, 9, 40, 0.949);
+    background-color: rgba(15, 3, 37, 0.949);
 }
 
 @media (max-width: 1048px){
