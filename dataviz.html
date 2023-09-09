@@ -35,13 +35,31 @@
     </nav>
     <section></section>
     <main>
-      <section id="title">
-        <h2>
-          "Earth is a cradle of humanity, but one cannot live in a cradle
-          forever."
-        </h2>
-        <h3>- Konstantin Tsiolkovsky</h3>
+      <section id="info">
+        <h4>NASA's Astronomy Picture of the Day.</h4>
+        <h5>This archive dates back from 1 January 2015 till the present.</h5>
+        <h5>Format as Year/Month/Day to generate the APOD.</h5>
+      </section>
+
+      <section class="container">
+        <section class="details-container">
+          <section class="details-input">
+            <span>Date: </span>
+            <input type="text" />
+          </section>
+          <button id="fetch-image">Fetch Image</button>
+          <button id="fetch-hd">Fetch HD Image</button>
+        </section>
+        <section class="image-container"></section>
       </section>
     </main>
+    <section id="title">
+      <h2>
+        "Earth is a cradle of humanity, but one cannot live in a cradle
+        forever."
+      </h2>
+      <h3>- Konstantin Tsiolkovsky</h3>
+    </section>
+    <script src="dataviz.js"></script>
   </body>
 </html>

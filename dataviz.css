@@ -65,7 +65,7 @@ nav #icon{
 }
 section#title{
     /*height: calc(100vh - 60px);*/
-    height: 20%;
+    height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,9 +73,8 @@ section#title{
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    margin: 15px;
-    margin-top: 5%;
-    background-color: rgba(15, 3, 37, 0.949);
+    margin-top: 10%;
+    background-color: rgba(21, 14, 72, 0.949);
 }
 
 @media (max-width: 1048px){
@@ -102,7 +101,7 @@ nav ul{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #1a2f4d;
+    background:  rgba(14, 0, 117, 0.949);
     top: 80px;
     left: -100%;
     text-align: center;
@@ -132,10 +131,72 @@ nav ul.show{
 
 }
 
+section#info{
+    color: rgb(3, 25, 44);
+    font-size: 40px;
+    text-align: center;
+    margin: 6%;
+}
 /*section{
     background: url(Images/nasa-_SFJhRPzJHs-unsplash.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }*/
 
+.details-container{
+    height: 250px;
+    width: 100%;
+    
+    background: rgb(25, 0, 71);
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    
+    
+ }
+ 
+ .details-container .details-input{
+     display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ 
+ .details-container .details-input span{
+   color: rgb(214, 214, 214);
+   opacity: 0.6;  
+   font-size: 28px;
+  
+ }
+ 
+ .details-container .details-input input{
+     height: 30px;
+     width: 150px;
+     outline: none;
+     padding: 0 10px;
+     font-size:20px ;
+     color: rgb(0, 0, 0);
+ }
+ 
+ .details-container button{
+ width: 150px;
+ height: 30px;
+ border-radius: 5px;
+ font-size: 20px;
+ border: none;
+ cursor: pointer;
+ color: rgb(0, 0, 0);
+ }
+ 
+ .details-container button{
+   transform: scale(0.95);  
+ }
+ 
+ .image-container{
+     padding: 50px;
+ }
+ 
+ .image-container img{
+     width:100% ;
+ 
+ }
 
