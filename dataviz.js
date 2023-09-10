@@ -70,6 +70,42 @@ container.append(newImageContainer);
     }
 });
 
+
+//2ND VIZ//
+
+let HEIGHT =600,
+WIDTH =600,
+MARGIN =50;
+
+//SVG
+let svg = d3
+.select("section")
+.append("svg")
+.attr("height", HEIGHT + MARGIN + MARGIN)
+.attr("width", WIDTH + MARGIN + MARGIN)
+.append("g")
+.attr("transform", `translate(${MARGIN}, ${MARGIN})`);
+
+//AXES
+let xScale = d3.scaleLinear().domain([0, 500000]).range([HEIGHT,0]);
+function createXAxis(data){
+    svg
+    .append("g")
+    .attr("transform", `translate(0. ${HEIGHT})`)
+    .call(d3.axisBottom(xScale));
+}
+
+let yScale = d3.scaleLinear().domain([0, 500000]).range([HEIGHT,0]);
+function createYAxis(){
+    svg.append("g").call(d3.axisLeft(yScale));
+}
+
+
+
+
+
+
+
 myButton = document.getElementById('myBtn'); 
 
 window.onscroll = function() {scrollFunction()};
