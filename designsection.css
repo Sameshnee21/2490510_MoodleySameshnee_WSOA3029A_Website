@@ -15,10 +15,17 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.title{
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10%;
+}
+
 nav{
     height: 100px;
     width: 100%;
-    background: #11304f;
+    background: #1c3d5e;
 }
 
 label.logo{
@@ -67,7 +74,7 @@ nav #icon{
 
 section#title{
     /*height: calc(100vh - 60px);*/
-    height: 20%;
+    height: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +83,7 @@ section#title{
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: 10%;
-    margin: 25px;
+
 background-color: rgba(20, 9, 40, 0.949);
 
 }
@@ -134,12 +141,13 @@ nav ul.show{
 }
 
 }
-
+/*
 .carousel-container{
     width: 60%;
     margin: auto;
     border: 5px #d7d9da;
     overflow: hidden;
+    padding-top: 10%;
    
    
 }
@@ -169,10 +177,179 @@ font-size: larger;
    text-align:center;
 }
 
-/*section{
-    background: url(Images/nasa-dCgbRAQmTQA-unsplash.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-}*/
 
+*/
 
+/*image gallery*/
+::selection{
+    color: #fff;
+    background: #ebeef1;
+  }
+  body{
+    padding: 10px;
+  }
+  .wrapper{
+    margin: 100px auto;
+    max-width: 2000px;
+  }
+  .wrapper nav{
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper .items{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .items span{
+    padding: 5px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #729cc9;
+    border-radius: 50px;
+   
+    transition: all 0.3s ease;
+  }
+  .items span.active,
+  .items span:hover{
+    color: #fff;
+    
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .gallery .image{
+    width: calc(100% / 4);
+    padding: 10px;
+  }
+  .gallery .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  .gallery .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+  }
+  .gallery .image:hover img{
+    transform: scale(1.1);
+  }
+  .gallery .image.hide{
+    display: none;
+  }
+  .gallery .image.show{
+    animation: animate 0.4s ease;
+  }
+  @keyframes animate {
+    0%{
+      transform: scale(0.5);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+  .preview-box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 3px;
+    padding: 0 5px 5px 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  }
+  .preview-box.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.3s ease;
+  }
+  .preview-box .details{
+    padding: 13px 15px 13px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .details .title{
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .details .title p{
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .details .icon{
+    color: #007bff;
+    font-style: 22px;
+    cursor: pointer;
+  }
+  .preview-box .image-box{
+    width: 100%;
+    display: flex;
+  }
+  .image-box img{
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+  }
+  .shadow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: none;
+    background: rgba(0,0,0,0.4);
+  }
+  .shadow.show{
+    display: block;
+  }
+  @media (max-width: 1000px) {
+    .gallery .image{
+      width: calc(100% / 3);
+    }
+  }
+  @media (max-width: 800px) {
+    .gallery .image{
+      width: calc(100% / 2);
+    }
+  }
+  @media (max-width: 700px) {
+    .wrapper nav .items{
+      max-width: 600px;
+    }
+    nav .items span{
+      padding: 7px 15px;
+    }
+  }
+  @media (max-width: 600px) {
+    .wrapper{
+      margin: 30px auto;
+    }
+    .wrapper nav .items{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav .items span{
+      margin: 5px;
+    }
+    .gallery .image{
+      width: 100%;
+    }
+  }
+
+  .Sources{
+    color: aliceblue;
+    text-align: center;
+  }
