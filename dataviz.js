@@ -1,22 +1,22 @@
 const apiKey = 'ahQFiYRloOL65cCcG5Oq19Q1evryc7D4vK0pewih';
 const url = 'https://api.nasa.gov/planetary/apod?';
 
-let container = document.querySelector('.container');
+let container = document.querySelector('.container2');
 
 
 
-let button = document.getElementById('fetch-image');
+let button = document.getElementById('fetch-image2');
 
 button.addEventListener('click', ()=>{
-    let imageContainer = document.querySelector('.image-container');
+    let imageContainer = document.querySelector('.image-container2');
     imageContainer.remove();
 
 let newImageContainer = document.createElement('div');
-newImageContainer.classList.add('image-container');
+newImageContainer.classList.add('image-container2');
 
 container.append(newImageContainer);
 
-    let dateInput = document.querySelector('.details-input input');
+    let dateInput = document.querySelector('.details-input2 input');
     let date = dateInput.value;
 
     let request = new XMLHttpRequest();
@@ -38,17 +38,17 @@ container.append(newImageContainer);
     }
 });
 
-let hdButton = document.getElementById('fetch-hd');
+let hdButton = document.getElementById('fetch-hd2');
 hdButton.addEventListener('click', () => {
-    let imageContainer = document.querySelector('.image-container');
+    let imageContainer = document.querySelector('.image-container2');
     imageContainer.remove();
 
 let newImageContainer = document.createElement('section');
-newImageContainer.classList.add('image-container');
+newImageContainer.classList.add('image-container2');
 
 container.append(newImageContainer);
 
-    let dateInput = document.querySelector('.details-input input');
+    let dateInput = document.querySelector('.details-input2 input');
     let date = dateInput.value;
 
     let request = new XMLHttpRequest();

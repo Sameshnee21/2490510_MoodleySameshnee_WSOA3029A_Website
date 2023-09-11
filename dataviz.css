@@ -131,18 +131,18 @@ nav ul.show{
 
 }
 
-section#info{
-    color: rgb(3, 25, 44);
+/*section#info{
+    color: rgb(193, 38, 38);
     font-size: 34px;
     text-align: center;
-    margin-top: -40%;
-}
+    margin-top: 40%;
+}*/
 
 section#info2{
-    color: rgb(237, 247, 255);
+    color: rgb(13, 48, 77);
     font-size: 34px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 /*section{
     background: url(Images/nasa-_SFJhRPzJHs-unsplash.jpg) no-repeat;
@@ -151,7 +151,7 @@ section#info2{
 }*/
 
 
-/* DATA VIZ 1*/
+/*DATA VIZ 1
 .details-container{
     height: 250px;
     width: 100%;
@@ -207,9 +207,9 @@ section#info2{
  .image-container img{
      width:100% ;
  
- }
+ }*/
 
-/*DATA  VIZ 2
+/*DATA  VIZ 2*/
  .details-container2{
     height: 250px;
     width: 100%;
@@ -229,7 +229,7 @@ section#info2{
  }
  
  .details-container2 .details-input2 span{
-   color: rgb(206, 208, 224);
+   color: rgb(191, 194, 224);
    opacity: 0.6;  
    font-size: 28px;
   
@@ -265,7 +265,7 @@ section#info2{
  .image-container2 img{
      width:100% ;
  
- }*/
+ }
 
  /*TO THE TOP BUTTON */
 
