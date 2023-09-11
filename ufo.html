@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>UFO Sightings</title>
+    <link rel="stylesheet" href="ufo.css" />
+    <script
+      src="https://kit.fontawesome.com/2701e034ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"> The Unofficial</label>
+      <ul>
+        <li><a href="index.html">-Home</a></li>
+        <li><a href="blog.html">-Blog Space</a></li>
+        <li><a href="designsection.html">-Design Sector</a></li>
+        <li><a href="dataviz.html">-Data Visualization</a></li>
+        <li><a href="dataart.html">-Data Art Sector</a></li>
+        <li><a class="active" href="ufo.html">-UFO Sightings</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </nav>
+    <section></section>
+    <h1 class="intro">
+      Here you'll find the: Top 5 Most UFO Sightings in the World (dating back
+      from 1947 till 2020)
+    </h1>
+    <p class="sent">-World People Review (2023)</p>
+    <p class="sent">
+      Please note that these sighting differ from source to source.
+    </p>
+
+    <main>
+      <canvas id="myChart" style="width: 150%; max-width: 900px"></canvas>
+
+      <script>
+        const xValues = ["Spain", "France", "China", "Canada", "USA"];
+        const yValues = [3650, 5068, 8000, 15000, 105000];
+        const barColors = [
+          "#ed8dca",
+          "#c850a7",
+          "#892578",
+          "#513153",
+          "#583b71",
+        ];
+
+        new Chart("myChart", {
+          type: "pie",
+          data: {
+            labels: xValues,
+            datasets: [
+              {
+                backgroundColor: barColors,
+                data: yValues,
+              },
+            ],
+          },
+          options: {
+            title: {
+              display: true,
+              //      text: " Top 5 Most UFO Sightings in the World",
+            },
+          },
+        });
+      </script>
+      <section id="title">
+        <h2>"Always look up, You never know, you might see a UFO."</h2>
+        <h3>-Pinterest, Inspirational Quotes</h3>
+      </section>
+    </main>
+  </body>
+</html>
