@@ -77,7 +77,8 @@ font-family: sans-serif;
 
 .card__face--front h3{
     color: #F3F3F3;
-    font-size: 32px;
+    font-size: 25px;
+    padding: 30px;
 }
 
 .card__face--back{
@@ -196,7 +197,8 @@ font-family: sans-serif;
 
 .card__face--front2 h3{
     color: #F3F3F3;
-    font-size: 32px;
+    font-size: 25px;
+    padding: 50px;
 }
 
 .card__face--back2{
@@ -256,7 +258,7 @@ background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--seco
     color: var(--dark);
     font-size: 24px;
     font-weight: 600;
-   padding: 20px;
+   padding: 40px;
 }
 
 .card__content2 p {
@@ -314,7 +316,8 @@ font-family: sans-serif;
 
 .card__face--front3 h3{
     color: #F3F3F3;
-    font-size: 32px;
+    font-size: 25px;
+    padding: 30px;
 }
 
 .card__face--back3{
@@ -433,7 +436,8 @@ font-family: sans-serif;
 
 .card__face--front4 h3{
     color: #F3F3F3;
-    font-size: 32px;
+    font-size: 25px;
+    padding: 50px;
 }
 
 .card__face--back4{
