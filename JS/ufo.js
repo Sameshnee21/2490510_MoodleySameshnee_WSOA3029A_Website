@@ -155,3 +155,4 @@ function drawBasic() {
 
   chart.draw(data, options);
 }
+
