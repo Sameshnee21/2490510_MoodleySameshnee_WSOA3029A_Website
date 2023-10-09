@@ -258,7 +258,7 @@ font-size: larger;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.9);
-    background: #fff;
+    background: #270049;
     max-width: 700px;
     width: 100%;
     z-index: 5;
@@ -290,7 +290,7 @@ font-size: larger;
     margin-left: 5px;
   }
   .details .icon{
-    color: #007bff;
+    color: #0a509b;
     font-style: 22px;
     cursor: pointer;
   }
@@ -350,6 +350,6 @@ font-size: larger;
   }
 
   .Sources{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
   }
