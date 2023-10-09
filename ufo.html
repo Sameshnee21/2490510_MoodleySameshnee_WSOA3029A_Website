@@ -10,7 +10,7 @@
     <meta name="keywords" content="HTML, CSS,JavaScript" />
     <link rel="stylesheet" href="ufo.css" />
     
-    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 
     <title>Asteroids</title>
 
@@ -43,80 +43,29 @@
       </label>
     </nav>
     <section class="words">
-    <h1 >EROS: God of Love.</h1> 
+    <h1 >Asteroids: Near Earth Object Web Services.</h1> 
     <img src="Images/4a790000de5c9019cef40696c32cbe9b.jpg" alt="Image of Eros Asteroid">
+    
+    <div>
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" required>
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" required>
+        <button id="fetchDataBtn">Fetch Data</button>
+    </div>
+    <div id="neo-data">
+        <!-- Data will be displayed here -->
+    </div>
+    
 
-    <p class="text">Eros, named after the Greek God of Love, was founded in 1898. It is the first asteroid to orbit around a spacecraft and to have a spacecraft land on it. NEAR (the spacecraft) finally moving into orbit around Eros on Valentine's Day in 2000.
 
-    It takes Eros 5 hours and 27 minutes to complete a full rotation and 1.76 years to complete one solar orbit.</p>
-    <p class="singletext">Next Visit:   30 November 2025</p>
   </section>
-  <section class="graphone">
-<h2 >Tracking Asteroid Eros (1907 - 2025)</h2>
-<h3 >Distance in Kilometers of Asteroid Orbiting Near Earth.</h3>
 
-    <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
-
-  </section>
-
-   <!-- <h2 class="words">Potentially Hazardous Asteroids That Nearly Hit Us (1907 - 2025)</h2>
-    <div id="myChart"></div>
-
-
-    <section id="UFOPie"></section>
-    <h1 class="intro">
-      Top 5 Most UFO Sightings in the World (dating back from 1947 till 2020)
-    </h1>
-    <p class="sent">-World People Review (2023)</p>
-    <p class="sent">
-      Please note that these sighting figures differ from source to source.
-    </p>
-
-    <main>
-      <h3 class="label">1.USA</h3>
-      <p class="details">
-        USA is the most popular country interested in ufology. According to the
-        National UFO Reporting Center, there has been over 105,000 sightings and
-        encounters reported since 1947
-      </p>
-
-      <h3 class="label">2.Canada</h3>
-      <p class="details">
-        Canada has over 15,000 reported sightings from 1989. In 2020, there were
-        1,243 recorded sightings alone.
-      </p>
-
-      <h3 class="label">3.China</h3>
-      <p class="details">
-        China has recorded over 8,000 sightings since 1980. Beijing and Shanghai
-        are known as sighting-hotspots.
-      </p>
-
-      <h3 class="label">4.France</h3>
-      <p class="details">
-        France has recorded 5,068 sightings dating back to 1954. They also hold
-        the title of highest reported sightings in 2017 which was 455.
-      </p>
-
-      <h3 class="label">5.Spain</h3>
-      <p class="details">
-        Spain has a total of 3,650 reported sightings since 1947. The main
-        hotspot fpr sightings are the Canary Islands and the Balearic Islands.
-      </p>
-
-      <p class="details">
-        Source Consulted:
-        https://mitechnews.com/guest-columns/ufo-sightings-which-country-has-the-most/
-      </p>-->
-<section class="links">
-
-
-</section>
       <section id="title">
         <h3>"Always look up, You never know, you might see an Asteroid"</h3>
         <h4>Data From: NASA Open API's</h4>
         <h4>Image From: Pinterest</h4>
-        <h4>Information From: NASA Science</h4>
+
         
       </section>
       <script src="JS/ufo.js"></script>
