@@ -172,10 +172,51 @@ nav ul.show{
 
 
 .intro{
-    font-size: 50px;
+    font-size: 70px;
     color: aliceblue;
     text-align: center;
     margin-top: 10%;
 }
 
+.info{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
 
+.space{
+    color: aliceblue;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 10%;
+ margin-top: 8%;
+    background-color: black;
+    height: 500px;
+    
+}
+
+.spacetwo{
+    color: aliceblue;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10%;
+    margin-top: -20%;
+    
+}
+
+.spacethree{
+    color: rgb(184, 207, 227);
+    text-align: left;
+    font-size: 22px;
+    padding-left: 10%;
+    background-color: black;
+    
+    
+    
+}
+
+.astro{
+   align-content: center;
+   display: flex;
+width: 100%;
+}
