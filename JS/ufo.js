@@ -106,3 +106,52 @@ function fetchAndDisplayData() {
 // Add an event listener to the button
 const fetchDataBtn = document.getElementById('fetchDataBtn');
 fetchDataBtn.addEventListener('click', fetchAndDisplayData);
+
+
+google.charts.load('current', {
+  packages: ['corechart', 'line']
+});
+google.charts.setOnLoadCallback(drawBasic);
+
+function drawBasic() {
+
+  var data = new google.visualization.DataTable();
+  data.addColumn('number', '1900');
+  data.addColumn('number', 'Distance to Earth');
+
+  data.addRows([
+    
+    [1900,47112732.928149391],
+    [1907, 70533232.893794475],
+    [1917, 74687814.59975122],
+    [1924, 53823292.394218643],
+    [1931, 26040971.835879446],
+    [1938, 32164326.017637735],
+    [1944, 60289296.383270507],
+    [1961, 66195880.154722887],
+    [1968, 39833635.134625859],
+    [1975, 22609353.042813383],
+    [1981, 46149346.251893277],
+    [1988, 69957978.998277599],
+    [2005, 54688077.782936714],
+    [2012, 26729521.135077032],
+    [2019, 31205919.274956477],
+    [2025, 59487215.181119528],
+   
+
+
+  ]);
+
+  var options = {
+    hAxis: {
+      title: 'Year'
+    },
+    vAxis: {
+      title: 'Distance in KM to Earth'
+    }
+  };
+
+  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+  chart.draw(data, options);
+}
