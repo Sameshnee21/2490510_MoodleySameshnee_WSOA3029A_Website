@@ -174,11 +174,12 @@ nav ul.show{
   }
 
 
-.intro{
+/*.intro{
     font-size: 30px;
     color: aliceblue;
     text-align: center;
     margin-top: 10%;
+    margin-right: -40%;
 }
 
 
@@ -189,21 +190,24 @@ nav ul.show{
     font-size: 15px;
     color: aliceblue;
     text-align: center;
+    margin-right: -40%;
+    margin-bottom: 4%;
     
 }
 
 .label{
     color: rgb(204, 204, 204);
-    margin-left: 48%;
+    margin-left: 55%;
     margin-right: 10%;
 }
 
 .details{
     color: aliceblue;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-right: 10%;
 }
 
 .label .details{
     margin-bottom: 30%;
-}
+}*/
+
