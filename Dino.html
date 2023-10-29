@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="space" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="dno.css" />
+    <script
+      src="https://kit.fontawesome.com/2701e034ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"> The Unofficial</label>
+      <ul>
+        <li><a class="active" href="index.html">-Home</a></li>
+        <li><a href="blog.html">-Blog Space</a></li>
+        <li><a href="designsection.html">-Design Sector</a></li>
+        <li><a href="dataviz.html">-Data Visualization</a></li>
+        <li><a href="dataart.html">-Data Art Sector</a></li>
+        <li><a href="ufo.html">-Kiss My Asteroid</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </nav>
+    <section></section>
+    <h1 class="intro">A Blast From The Past and A Taste of the Future.</h1>
+    <section id="scatter"></section>
+    <!--<section>
+      <img
+        class="astro"
+        src="Images/pexels-kai-pilger-1341279.jpg"
+        alt="Stars in the night"
+      />
+    </section>-->
+
+    <main>
+      <section id="title">
+        <h2>
+          "The Universe is a pretty big place. If it's just us, seems like an
+          awful waste of space."
+        </h2>
+        <h3>-Carl Sagan</h3>
+      </section>
+    </main>
+    <script src="JS/dino.js"></script>
+  </body>
+</html>
+
+Photo by Shovit Chhetri:
+https://www.pexels.com/photo/silhouette-photo-of-person-under-starry-sky-3344325/

@@ -15,16 +15,16 @@
 
 section#title{
     /*height: calc(100vh - 60px);*/
-    height: 170px;
-    display:flex;
+    height: 160px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 25px;
-    background-color: rgba(42, 19, 84, 0.949);
-    width: 2455px;
+    font-size: 20px;
+    margin-top: -15%;
+    background-color: rgba(21, 14, 72, 0.949);
 }
 
 /*BLOG POST 1*/
