@@ -15,11 +15,17 @@ body{
     background-color: black;
 }
 
+.heading{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5%;
+}
+
 #my_dataviz{
     padding-left: 15%;
     padding-top: 5%;
     width: 100px;
-    height: 150 px;
+    height: 100 px;
 }
 nav{
     height: 100px;
@@ -84,6 +90,7 @@ section#title{
     margin: 25px;
     margin-top: 10%;
     background-color: rgba(20, 9, 40, 0.949);
+    ;
 }
 
 @media (max-width: 1048px){
