@@ -10,8 +10,8 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    /*background: url(Images/DARTbg.jpg);*/
-    background-size: cover;
-    height: 100%;
+    /*background-size: cover;*/
+    /*height: 100%;*/
     background-color: black;
 }
 
@@ -22,9 +22,10 @@ body{
 }
 
 #my_dataviz{
-    padding-left: 15%;
+    align-items: center;
     padding-top: 5%;
-    width: 100px;
+  
+    width: 92px;
     height: 100 px;
 }
 nav{
@@ -145,6 +146,8 @@ nav ul.show{
     left: 0;
 }
 
+.dino{
+  margin-top: 50%;
 }
 
 /*section{
@@ -154,3 +157,4 @@ nav ul.show{
 }*/
 
 
+}

@@ -94,9 +94,9 @@
 
       // simple d3 scatter test
 
-      var margin = { top: 30, right: 50, bottom: 50, left: 80 },
-        width = 1960 - margin.left - margin.right,
-        height = 1900 - margin.top - margin.bottom;
+      var margin = { top: 30, right: 50, bottom: 10, left: 80 },
+        width = 1760 - margin.left - margin.right,
+        height = 1700 - margin.top - margin.bottom;
 
       // append the svg object to the body of the page
       var svg = d3
@@ -139,7 +139,11 @@
           return "#" + Math.floor(Math.random() * 16777215).toString(16);
         }); //random color
     </script>
-
+    <img
+      class="dino"
+      src="Images/DBG.png"
+      alt="Dinosaurs Looking at an ball of fire in the sky"
+    />
     <main>
       <section id="title">
         <h2>
