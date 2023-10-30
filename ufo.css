@@ -306,14 +306,30 @@ nav ul.show{
   .y-axis line {
     stroke: #061b6d;
   }
-    
-  #scatter{
-    background-color: #161f52;
+
+
+
+/*Asteroid Eros Scatter plot*/
+circle {
+  fill: rgb(253, 253, 253);
+  opacity: 0.3;
+  stroke: white;
+}
+text {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  fill: rgb(255, 255, 255);
+  font-size: 15 px;
+  text-anchor: middle;
+  padding-bottom: 25px;
+}
+ 
+ /* #scatter{
+    background-color: hsl(235, 56%, 12%);
     height: 800px;
   }
     
  .scat{
-  color: #07d30b;
+  color: #8f32f8;
   text-align: center;
   padding-top: 20px;
  }

@@ -6,10 +6,35 @@
     text-decoration: none;
     list-style: none;
 }
+.BHeading{
+    color: aliceblue;
+    padding-top: 5%;
+    padding-right: 10%;
+    text-align: right;
+    font-size: 25px;
+}
+circle {
+    fill: rgb(68, 2, 98);
+    opacity: 0.3;
+    stroke: white;
+ 
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    fill: rgb(255, 255, 255);
+    font-size: 10 px;
+    text-anchor: middle;
+  }
+  .bubble{
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(Images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;
+    /*background: url(Images/nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat;*/
     background-size: cover;
     height: 150%;
     background-color: #010a14;
@@ -255,3 +280,5 @@ nav ul.show{
 
 
  }
+
+ 

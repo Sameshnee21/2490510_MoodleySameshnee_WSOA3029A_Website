@@ -158,6 +158,9 @@ fetchDataBtn.addEventListener('click', fetchAndDisplayData);
 
 
 
+
+
+//Second graph
 data = [{
   date: 1900,
   distance: 47112732
