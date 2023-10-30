@@ -9,9 +9,10 @@
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(Images/nasa-OLlj17tUZnU-unsplash.jpg) no-repeat;
+    background: url(Images/DARTbg.jpg);
     background-size: cover;
     height: 100%;
+    background-color: black;
 }
 
 nav{
