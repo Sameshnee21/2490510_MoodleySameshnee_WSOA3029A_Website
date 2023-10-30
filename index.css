@@ -8,11 +8,14 @@
 }
 .BHeading{
     color: aliceblue;
-    padding-top: 5%;
-    padding-right: 10%;
+    padding-top: 10%;
+    padding-right: 32%;
     text-align: right;
     font-size: 25px;
+  
 }
+
+
 circle {
     fill: rgb(68, 2, 98);
     opacity: 0.3;
@@ -27,8 +30,8 @@ circle {
   }
   .bubble{
     align-items: center;
-    margin-left: 20%;
-    margin-top: 5%;
+    margin-left: 35%;
+    margin-top: 3%;
   }
   
 
