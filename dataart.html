@@ -9,7 +9,7 @@
     <meta name="author" content="Sameshnee Moodley" />
     <script src="https://d3js.org/d3.v4.js"></script>
     <title>Data Art Section</title>
-    <link rel="stylesheet" href="dataart.css" />
+    <link rel="stylesheet" href="css/dataart.css" />
     <script
       src="https://kit.fontawesome.com/2701e034ac.js"
       crossorigin="anonymous"
@@ -40,7 +40,19 @@
     </nav>
     <section></section>
     <h2 class="heading">CAD: Close Approach Data for Asteroids and Comets</h2>
-    <h3 class="heading">Refresh Page to Change Pattern.</h3>
+    <h2>
+      <p class="heading">
+        CAD stands for "Close Approach Data" for all asteroids and comets near
+        Earth, in other words, orbital data. In terms of 'close', asteroids and
+        comets can be extremely far in human terms, sometimes millions or even
+        tens of millions of kilometers away.
+      </p>
+    </h2>
+
+    <!--reload button-->
+    <h3 class="heading"><button>Change Constellation</button></h3>
+    <!--end of button-->
+
     <div id="my_dataviz"></div>
     <script class="DOTS">
       data =
@@ -94,9 +106,9 @@
 
       // simple d3 scatter test
 
-      var margin = { top: 30, right: 50, bottom: 10, left: 80 },
-        width = 1760 - margin.left - margin.right,
-        height = 1700 - margin.top - margin.bottom;
+      var margin = { top: 30, right: 60, bottom: 1, left: 40 },
+        width = 1860 - margin.left - margin.right,
+        height = 1800 - margin.top - margin.bottom;
 
       // append the svg object to the body of the page
       var svg = d3
@@ -139,11 +151,25 @@
           return "#" + Math.floor(Math.random() * 16777215).toString(16);
         }); //random color
     </script>
-    <img
+
+    <!--<img
       class="dino"
       src="Images/DBG.png"
       alt="Dinosaurs Looking at an ball of fire in the sky"
-    />
+    />-->
+
+    <p class="dataart">
+      THE DIFFERENCE BETWEEN ASTEROIDS, COMETS AND METEORITES.
+    </p>
+    <p class="dataart2">Comets: These are snowballs of gas and dust.</p>
+    <p class="dataart2">
+      Asteroids: These are left over rocks from planet formations.
+    </p>
+    <p class="dataart2">
+      Meteorites: These are pieces of debris that fall through the Earth's
+      atmosphere.
+    </p>
+
     <main>
       <section id="title">
         <h2>
@@ -153,5 +179,7 @@
         <h3>- Ray Bradbury</h3>
       </section>
     </main>
+
+    <script type="text/javascript" src="JS/dataart.js"></script>
   </body>
 </html>
