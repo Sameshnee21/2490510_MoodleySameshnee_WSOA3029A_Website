@@ -369,3 +369,23 @@ svg.append("g")
   .call(d3.axisLeft(y).tickFormat(function (d) {
       return "KM" + d3.format(".2f")(d)
   }));
+
+
+
+  myButton = document.getElementById('myBtn'); 
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction(){
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    myButton.style.display = "block";
+}
+else {
+    myButton.style.display = "none"; 
+}
+}
+
+myButton.addEventListener('click', () => {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0;
+})
