@@ -9,8 +9,8 @@
 .BHeading{
     color: rgb(255, 255, 255);
     padding-top: 10%;
-    padding-right: 32%;
-    text-align: right;
+    
+    text-align: center;
     font-size: 25px;
   
 }
@@ -30,7 +30,7 @@ circle {
   }
   .bubble{
     align-items: center;
-    margin-left: 35%;
+    margin-left: 15%;
     margin-top: 3%;
   }
   
@@ -214,9 +214,9 @@ nav ul.show{
 
 .space{
     color: aliceblue;
-    text-align: left;
+    text-align: center;
     font-size: 50px;
-    padding-left: 20%;
+    
  margin-top: 8%;
     background-color: black;
     height: 500px;
@@ -225,18 +225,18 @@ nav ul.show{
 
 .spacetwo{
     color: aliceblue;
-    text-align: left;
+    text-align: center;
     font-size: 25px;
-    padding-left: 20%;
+    
     margin-top: -20%;
     
 }
 
 .spacethree{
     color: rgb(184, 207, 227);
-    text-align: left;
+    text-align: center;
     font-size: 22px;
-    padding-left: 20%;
+   
     background-color: black;  
     
 }
@@ -245,9 +245,9 @@ nav ul.show{
 
 .space1{
     color: aliceblue;
-    text-align: right;
+    text-align: center;
     font-size: 50px;
-    padding-right: 15%;
+   
  margin-top: 10%;
  background-color: black;
     height: 400px;
@@ -257,17 +257,16 @@ nav ul.show{
 
 .spacetwo2{
     color: aliceblue;
-    text-align: right;
+    text-align: center;
     font-size: 25px;
-    padding-right: 15%;
+   
     margin-top: 6%;
 }
 
 .spacethree3{
     color: rgb(184, 207, 227);
-    text-align: right;
+    text-align: center;
     font-size: 22px;
-    padding-right: 15%;
     margin-top: -20%;
 
 }

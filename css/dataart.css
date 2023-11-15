@@ -14,6 +14,13 @@ body{
     /*height: 100%;*/
     background-color: black;
 }
+.exam{
+    
+    font-size: 25px;
+   margin-left: 40%;
+   margin-top: 60%;
+   
+}
 
 .heading{
     color: aliceblue;
@@ -203,3 +210,5 @@ margin-top: -40%;
         #myBtn:hover{
             background-color: #5050a8;
         }
+
+    
