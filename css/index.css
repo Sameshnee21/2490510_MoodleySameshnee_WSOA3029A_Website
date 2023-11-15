@@ -15,6 +15,12 @@
   
 }
 
+.add{
+    color: aliceblue;
+    padding-left: 55%;
+    padding-right: 20%;
+    padding-top: 3%;
+}
 
 circle {
     fill: rgb(68, 2, 98);
@@ -31,7 +37,7 @@ circle {
   .bubble{
     align-items: center;
     margin-left: 15%;
-    margin-top: 3%;
+    margin-top: -13%;
   }
   
 
